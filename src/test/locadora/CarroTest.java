@@ -13,7 +13,6 @@ class CarroTest {
 
     @BeforeEach
     void setUp() {
-        // Reseta a taxa global para 10% (0.10f) antes de cada teste
         ConfiguracaoLocadora.getInstance().setTaxaSeguroGlobal(0.10f);
     }
 
